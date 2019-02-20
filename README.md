@@ -1,1 +1,1 @@
-# merary_banner_proxy
+# merary-banner-proxy
