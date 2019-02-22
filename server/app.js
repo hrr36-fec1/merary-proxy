@@ -31,11 +31,11 @@ app.use(function(req, res, next) {
 app.get('/api/movies/banner', (req, res) => {
   let options = {
     hostname: '127.0.0.1',
-    port: 8081,
+    port: 8082,
     path: `/api/movies/banner`,
     method: 'GET',
     json: true,
-    uri: `http://127.0.0.1:8081/api/movies/banner`,
+    uri: `http://127.0.0.1:8082/api/movies/banner`,
   };
   request(options, (err, response, body) => {
     if(err) console.log(err);
